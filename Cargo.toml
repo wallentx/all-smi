@@ -58,7 +58,7 @@ tar = "0.4.46"
 # Pure-Rust SSH client for the agentless view transport (issue #194).
 # Chosen over ssh2/libssh2 so musl static builds do not need a C
 # dependency. russh 0.60 targets edition 2021 with tokio 1.x.
-russh = "0.62"
+russh = "0.63"
 [target.'cfg(target_os = "linux")'.dependencies]
 # Tenstorrent NPU support via the upstream luwen crates (published on crates.io,
 # tracking luwen main). Replaces the former all-smi-luwen-* republished forks.
